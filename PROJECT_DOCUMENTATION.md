@@ -233,6 +233,29 @@ python train_model.py
 streamlit run app.py
 ```
 
+### Execution Commands (macOS / Linux Terminal)
+
+```bash
+# 1. (Optional) Create and activate virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Generate the synthetic student dataset
+python3 generate_dataset.py
+
+# 4. Train the Random Forest machine learning model
+python3 train_model.py
+
+# 5. Launch the Streamlit Web Application (Option A)
+streamlit run app.py
+
+# Or launch the Standalone Web UI Server (Option B)
+python3 web_ui/server.py
+```
+
 ---
 
 ## 9. Comprehensive Viva Voce Preparation

@@ -114,25 +114,25 @@ student-performance-predictor/
 
 ---
 
-## 9. Installation & Setup Instructions (Windows)
+## 9. Installation & Setup Instructions
 
-### Step 1: Open Terminal in Project Directory
-Open PowerShell or Command Prompt in the project root directory:
+### On Windows (PowerShell / Command Prompt)
 ```powershell
-cd "f:\College\4th year\AI lab mini project"
-```
-
-### Step 2: Set Up Virtual Environment (Recommended)
-```powershell
-# Create virtual environment
+# 1. Create and activate virtual environment
 python -m venv .venv
-
-# Activate virtual environment
 .\.venv\Scripts\Activate.ps1
+
+# 2. Install dependencies
+pip install -r requirements.txt
 ```
 
-### Step 3: Install Required Dependencies
-```powershell
+### On macOS / Linux (Terminal)
+```bash
+# 1. Create and activate virtual environment
+python3 -m venv .venv
+source .venv/bin/activate
+
+# 2. Install dependencies
 pip install -r requirements.txt
 ```
 
